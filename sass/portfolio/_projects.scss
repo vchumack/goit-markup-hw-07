@@ -1,0 +1,110 @@
+.projects-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.projects-list__item {
+   width: calc((100% - 60px) / 3);
+   margin-right: 30px;
+   margin-bottom: 30px;
+
+
+   /* outline: rgb(83, 246, 83) solid 2px; */
+}
+
+
+.projects-list__item:nth-child(3n) {
+   margin-right: 0;
+}
+
+.projects-list__item:nth-last-child(-n + 3) {
+   margin-bottom: 0;
+}
+
+.projects-list__link {
+   display: inline-block;
+   text-decoration: none;
+
+   transition: box-shadow 250ms var(--timing-function);
+}
+
+.projects-list__link:hover,
+.projects-list__link:focus {
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+.projects-list__box {
+   position: relative;
+   overflow: hidden;
+
+}
+
+.projects-list__img {
+   display: block;
+
+}
+
+.projects-list__tip {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: -100%;
+   left: 0;
+
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 63px 24px;
+   text-align: left;
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.56;
+   letter-spacing: 0.03em;
+
+   background-color: var(--accent-hover-color);
+   color: var(--white-text-color);
+
+   opacity: 1;
+
+   transform: translateY(200%);
+
+   transition: transform 250ms var(--timing-function);
+}
+
+.projects-list__link:hover .projects-list__tip {
+   transform: translateY(100%);
+}
+
+.projects-list__description {
+   padding: 20px 24px 20px 24px;
+
+   border-left: 1px solid var(--secondary-border-color);
+   border-right: 1px solid var(--secondary-border-color);
+   border-bottom: 1px solid var(--secondary-border-color);
+}
+
+.projects-list__title {
+   margin-top: 0;
+   margin-bottom: 4px;
+
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   text-align: left;
+
+   color: var(--secondary-text-color);
+}
+
+.projects-list__text {
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+
+   font-size: 16px;
+   line-height: 1.88;
+   text-align: left;
+
+   color: var(--main-text-color);
+}

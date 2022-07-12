@@ -1,0 +1,62 @@
+/* ---------------------------------------- Стилизация cтраницы ПОРТФОЛИО ---------------------------------------- */
+.projects-section {
+   text-align: center;
+}
+
+.projects-section__title {
+   text-align: center;
+
+   margin-top: 0;
+   margin-bottom: 50px;
+
+   font-size: 36px;
+   line-height: 1.16;
+
+   color: var(--secondary-text-color);
+}
+
+.filter-list {
+   display: flex;
+   justify-content: center;
+
+   margin-top: 0;
+   margin-bottom: 50px;
+}
+
+.filter-list__item:not(:last-child) {
+   margin-right: 8px;
+}
+
+.filter-list__btn {
+   padding: 6px 22px;
+
+   cursor: pointer;
+
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   letter-spacing: 0.03em;
+
+   color: var(--secondary-text-color);
+   background-color: var(--secondary-background-color);
+   border-radius: 4px;
+   border: 0;
+
+   transition: background-color 250ms var(--timing-function),
+      color 250ms var(--timing-function),
+      box-shadow 250ms var(--timing-function),
+      border-radius 250ms var(--timing-function);
+
+
+   /* outline: 1px solid blueviolet; */
+}
+
+.filter-list__btn:hover,
+.filter-list__btn:focus {
+   color: var(--white-text-color);
+   background-color: var(--accent-color);
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;
+}
