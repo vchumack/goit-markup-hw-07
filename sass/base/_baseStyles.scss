@@ -15,13 +15,13 @@
 
 /* ------------------------------- Общая стилизация ------------------------------- */
 body {
-   font-family: Roboto, sans-serif;
+   font-family: $main-font;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
 
-   background-color: var(--white-background-color);
-   color: var(--main-text-color);
+   background-color: $white-background-color;
+   color: $main-text-color;
 }
 
 .list {
@@ -38,7 +38,6 @@ body {
    padding-left: 15px;
    padding-right: 15px;
 
-   /* outline: #2196f3 solid 2px; */
 }
 
 .section {

@@ -1,9 +1,8 @@
 /* ------------------------------- Стилизация футера ------------------------------- */
 .footer-page {
-   /* padding-top: 60px; */
    padding-bottom: 60px;
 
-   background-color: var(--footer-background-color);
+   background-color: $footer-background-color;
 }
 
 .footer-box {
@@ -18,14 +17,13 @@
 .logo-white {
    display: inline-block;
    margin-bottom: 20px;
-   /* padding-top: 60px; */
 
-   font-family: Raleway, sans-serif;
+   font-family: $second-font;
    font-weight: 700;
    font-size: 26px;
    line-height: 1.19;
 
-   color: var(--white-text-color);
+   color: $white-text-color;
 }
 
 .address-list__item:not(:last-child) {
@@ -36,29 +34,33 @@
    font-style: normal;
    text-decoration: none;
 
-   color: var(--white-text-color);
+   color: $white-text-color;
 
-   transition: color 250ms var(--timing-function);
+   transition: color 250ms $timing-function;
+
+   &:hover,
+   &:focus {
+      color: $accent-color;
+   }
+
+
 }
 
-.address-list__link:hover,
-.address-list__link:focus {
-   color: var(--accent-color);
-}
 
 .address-list__contacts {
    font-style: normal;
    text-decoration: none;
 
-   color: var(--secondary-link-color);
-   transition: color 250ms var(--timing-function);
-}
+   color: $secondary-link-color;
+   transition: color 250ms $timing-function;
 
-.address-list__contacts:hover,
-.address-list__contacts:focus {
-   color: var(--accent-color);
-}
+   &:hover,
+   &:focus {
+      color: $accent-color;
+   }
 
+
+}
 
 .join-box {
    padding-top: 72px;
@@ -73,7 +75,7 @@
    line-height: 1;
    text-transform: uppercase;
 
-   color: var(--footer-text-color);
+   color: $footer-text-color;
 }
 
 .join-icon__list {
@@ -101,18 +103,17 @@
    margin-left: auto;
    margin-right: auto;
 
-   fill: var(--white-text-color);
-   background-color: var(--icon-bg-color);
+   fill: $white-text-color;
+   background-color: $icon-bg-color;
 
-   transition: fill 250ms var(--timing-function),
-      background-color 250ms var(--timing-function);
+   transition: fill 250ms $timing-function,
+      background-color 250ms $timing-function;
 
-}
-
-.join-icon__link:hover,
-.join-icon__link:focus {
-   fill: var(--white-text-color);
-   background-color: var(--accent-color);
+   &:hover,
+   &:focus {
+      fill: $white-text-color;
+      background-color: $accent-color;
+   }
 
 }
 
@@ -127,8 +128,6 @@
 
 .mail-form__label {
    margin-right: 12px;
-
-
 }
 
 .mail-form__input {
@@ -144,7 +143,7 @@
    line-height: 1.88;
    letter-spacing: 0.06em;
    background-color: transparent;
-   color: var(--white-background-color);
+   color: $white-background-color;
 
 
    border: 1px solid rgba(255, 255, 255, 0.3);
@@ -177,8 +176,8 @@
    border: 1px solid transparent;
    border-radius: 4px;
 
-   color: var(--white-text-color);
-   background-color: var(--accent-color);
+   color: $white-text-color;
+   background-color: $accent-color;
 
    cursor: pointer;
 }

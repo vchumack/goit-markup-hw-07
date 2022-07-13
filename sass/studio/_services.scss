@@ -8,7 +8,7 @@
    font-size: 36px;
    line-height: 1.16;
 
-   color: var(--secondary-text-color);
+   color: $secondary-text-color;
 }
 
 .services-list {
@@ -45,7 +45,7 @@
    letter-spacing: 0.03em;
    text-transform: uppercase;
 
-   color: var(--white-text-color);
-   background-color: var(--services-color);
+   color: $white-text-color;
+   background-color: $services-color;
 
 }

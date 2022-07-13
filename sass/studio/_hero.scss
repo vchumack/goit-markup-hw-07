@@ -8,7 +8,7 @@
    padding-bottom: 200px;
 
    text-align: center;
-   background-color: var(--footer-background-color);
+   background-color: $footer-background-color;
    background-image: linear-gradient(to right,
          rgba(47, 48, 58, 0.4),
          rgba(47, 48, 58, 0.4)),
@@ -33,7 +33,7 @@
    letter-spacing: 0.06em;
    text-transform: uppercase;
 
-   color: var(--white-text-color);
+   color: $white-text-color;
 }
 
 .hero__btn {
@@ -50,8 +50,8 @@
    border: 1px solid transparent;
    border-radius: 4px;
 
-   color: var(--white-text-color);
-   background-color: var(--accent-color);
+   color: $white-text-color;
+   background-color: $accent-color;
 
    cursor: pointer;
 

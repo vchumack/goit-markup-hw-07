@@ -11,7 +11,7 @@
    line-height: 1.16;
    text-align: center;
 
-   color: var(--secondary-text-color);
+   color: $secondary-text-color;
 }
 
 .advantages-list {
@@ -23,7 +23,6 @@
 .advantages-list__item {
    width: 270px;
 
-   /* outline: 1px solid blueviolet; */
 }
 
 .advantages-list__item:not(:last-child) {
@@ -39,9 +38,8 @@
    justify-content: center;
    align-items: center;
 
-   background-color: var(--secondary-background-color);
+   background-color: $secondary-background-color;
 
-   /* outline: 1px solid blueviolet; */
 }
 
 
@@ -53,12 +51,12 @@
    line-height: 1.14;
    text-transform: uppercase;
 
-   color: var(--secondary-text-color);
+   color: $secondary-text-color;
 }
 
 .advantages-list__text {
    margin-top: 0;
    margin-bottom: 0;
 
-   color: var(--main-text-color);
+   color: $main-text-color;
 }
