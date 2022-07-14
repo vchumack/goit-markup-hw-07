@@ -14,18 +14,6 @@
    padding-top: 60px;
 }
 
-.logo-white {
-   display: inline-block;
-   margin-bottom: 20px;
-
-   font-family: $second-font;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.19;
-
-   color: $white-text-color;
-}
-
 .address-list__item:not(:last-child) {
    margin-bottom: 9px;
 }
@@ -45,7 +33,6 @@
 
 
 }
-
 
 .address-list__contacts {
    font-style: normal;

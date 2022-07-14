@@ -1,5 +1,5 @@
 /*---------------- Стилизация логотипа ---------------- */
-.logo-accent {
+.logo-general__accent {
    text-decoration: none;
    font-family: $second-font;
    font-weight: 700;
@@ -9,12 +9,22 @@
    color: $accent-color;
 }
 
-.logo-black {
-   text-decoration: none;
+.logo-general__inversion {
    font-family: $second-font;
    font-weight: 700;
    font-size: 26px;
    line-height: 1.19;
+}
+
+.logo--black {
+   text-decoration: none;
 
    color: $logo-color;
+}
+
+.logo--white {
+   display: inline-block;
+   margin-bottom: 20px;
+
+   color: $white-text-color;
 }
