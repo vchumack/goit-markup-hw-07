@@ -364,7 +364,7 @@ body {
 .modal-form__checkbox:checked + .modal-form__checkmark {
   border-color: #2196f3;
   background-color: #2196f3;
-  background-image: url(../images/icons/icon\ check000.svg);
+  background-image: url(../images/check.svg);
   background-size: contain;
   background-origin: border-box;
 }
