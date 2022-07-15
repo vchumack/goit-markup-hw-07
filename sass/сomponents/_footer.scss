@@ -14,40 +14,44 @@
    padding-top: 60px;
 }
 
-.address-list__item:not(:last-child) {
-   margin-bottom: 9px;
-}
+.address-list {
 
-.address-list__link {
-   font-style: normal;
-   text-decoration: none;
-
-   color: $white-text-color;
-
-   transition: color 250ms $timing-function;
-
-   &:hover,
-   &:focus {
-      color: $accent-color;
+   // ------ address-list__item: not(:last-child)
+   &__item:not(:last-child) {
+      margin-bottom: 9px;
    }
 
+   // ------ address-list__link
+   &__link {
+      font-style: normal;
+      text-decoration: none;
 
-}
+      color: $white-text-color;
 
-.address-list__contacts {
-   font-style: normal;
-   text-decoration: none;
+      transition: color 250ms $timing-function;
 
-   color: $secondary-link-color;
-   transition: color 250ms $timing-function;
-
-   &:hover,
-   &:focus {
-      color: $accent-color;
+      &:hover,
+      &:focus {
+         color: $accent-color;
+      }
    }
 
+   // ------- address-list__contacts
+   &__contacts {
+      font-style: normal;
+      text-decoration: none;
+
+      color: $secondary-link-color;
+      transition: color 250ms $timing-function;
+
+      &:hover,
+      &:focus {
+         color: $accent-color;
+      }
+   }
 
 }
+
 
 .join-box {
    padding-top: 72px;
@@ -111,64 +115,69 @@
 
 .mail-form {
    display: flex;
-}
 
-.mail-form__label {
-   margin-right: 12px;
-}
+   // ------ mail-form__label
+   &__label {
+      margin-right: 12px;
+   }
 
-.mail-form__input {
-   width: 358px;
-   height: 50px;
-   padding: 15px 16px;
-   outline: none;
-
-
-   font-family: inherit;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.88;
-   letter-spacing: 0.06em;
-   background-color: transparent;
-   color: $white-background-color;
+   // ------ mail-form__input
+   &__input {
+      width: 358px;
+      height: 50px;
+      padding: 15px 16px;
+      outline: none;
 
 
-   border: 1px solid rgba(255, 255, 255, 0.3);
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-   border-radius: 4px;
-}
-
-.mail-form__input::placeholder {
-   font-size: 16px;
-   line-height: 1.25;
-   letter-spacing: 0.03em;
-   color: rgba(255, 255, 255, 0.6);
-
-}
-
-.mail-form__btn {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-   min-width: 200px;
-   height: 50px;
+      font-family: inherit;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.06em;
+      background-color: transparent;
+      color: $white-background-color;
 
 
-   font-family: inherit;
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1.88;
-   letter-spacing: 0.06em;
-   border: 1px solid transparent;
-   border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+   }
 
-   color: $white-text-color;
-   background-color: $accent-color;
+   // ------ mail-form__input::placeholder
+   &__input::placeholder {
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+   }
 
-   cursor: pointer;
-}
+   // ------ mail-form__btn
+   &__btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-.mail-form__svg {
-   margin-left: 10px;
+      min-width: 200px;
+      height: 50px;
+
+
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.06em;
+      border: 1px solid transparent;
+      border-radius: 4px;
+
+      color: $white-text-color;
+      background-color: $accent-color;
+
+      cursor: pointer;
+   }
+
+   // ----- mail-form__svg
+   &__svg {
+      margin-left: 10px;
+   }
+
 }

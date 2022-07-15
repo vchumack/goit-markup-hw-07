@@ -1,63 +1,74 @@
 /*---------------- Стилизация раздела c командой ----------------*/
 .team-section {
    background-color: $secondary-background-color;
+
+
+   // ------ team-section__title
+   &__title {
+      text-align: center;
+
+      margin-top: 0;
+      margin-bottom: 50px;
+
+      font-size: 36px;
+      line-height: 1.16;
+
+      color: $secondary-text-color;
+   }
 }
 
-.team-section__title {
-   text-align: center;
 
-   margin-top: 0;
-   margin-bottom: 50px;
-
-   font-size: 36px;
-   line-height: 1.16;
-
-   color: $secondary-text-color;
-}
 
 .team-list {
    display: flex;
 
+
+   // ------- team-list__item
+   &__item {
+      background-color: $white-background-color;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+         0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+   }
+
+   // ------- team-list__item:not(:last-child)
+   &__item:not(:last-child) {
+      margin-right: 30px;
+   }
+
+   // ------- team-list__description
+   &__description {
+      padding-top: 30px;
+      padding-bottom: 30px;
+   }
+
+   // -------- team-list__title
+   &__title {
+      margin-top: 0;
+      margin-bottom: 10px;
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.18;
+      text-align: center;
+
+      color: $secondary-text-color;
+   }
+
+   // -------- team-list__text
+   &__text {
+      margin-top: 0;
+      margin-bottom: 16px;
+
+      font-size: 16px;
+      line-height: 1.18;
+      text-align: center;
+
+      color: $main-text-color;
+   }
+
 }
 
-.team-list__item {
-   background-color: $white-background-color;
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-   border-radius: 0px 0px 4px 4px;
-}
-
-.team-list__item:not(:last-child) {
-   margin-right: 30px;
-}
-
-.team-list__description {
-   padding-top: 30px;
-   padding-bottom: 30px;
-}
-
-.team-list__title {
-   margin-top: 0;
-   margin-bottom: 10px;
-
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.18;
-   text-align: center;
-
-   color: $secondary-text-color;
-}
-
-.team-list__text {
-   margin-top: 0;
-   margin-bottom: 16px;
-
-   font-size: 16px;
-   line-height: 1.18;
-   text-align: center;
-
-   color: $main-text-color;
-}
 
 .social-icon__list {
    list-style: none;

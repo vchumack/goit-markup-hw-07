@@ -98,11 +98,9 @@ body {
   margin-bottom: 0;
   margin-left: 93px;
 }
-
 .nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
-
 .nav-list__link {
   display: block;
   padding-top: 32px;
@@ -118,7 +116,6 @@ body {
 .nav-list__link:hover, .nav-list__link:focus {
   color: #2196f3;
 }
-
 .nav-list__link--active {
   position: relative;
   color: #2196f3;
@@ -142,11 +139,9 @@ body {
   margin-bottom: 0;
   margin-left: auto;
 }
-
 .contacts-list__item:not(:last-child) {
   margin-right: 50px;
 }
-
 .contacts-list__link {
   text-decoration: none;
   font-weight: 500;
@@ -161,7 +156,6 @@ body {
   color: #2196f3;
   fill: #2196f3;
 }
-
 .contacts-list__icon {
   margin-right: 10px;
 }
@@ -181,7 +175,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .hero__title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -196,7 +189,6 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-
 .hero__btn {
   padding: 10px 32px;
   min-width: 200px;
@@ -260,7 +252,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .modal-form__label {
   position: relative;
   display: flex;
@@ -271,11 +262,9 @@ body {
   line-height: 1.15;
   letter-spacing: 0.01em;
 }
-
 .modal-form__label--margin {
   margin-bottom: 20px;
 }
-
 .modal-form__input {
   display: flex;
   justify-content: center;
@@ -290,7 +279,6 @@ body {
 .modal-form__input:hover, .modal-form__input:focus {
   border: 1px solid #2196f3;
 }
-
 .modal-form__icon {
   position: absolute;
   bottom: 11px;
@@ -301,7 +289,6 @@ body {
 .modal-form__label:focus-within .modal-form__icon, .modal-form__label:hover .modal-form__icon {
   fill: #2196f3;
 }
-
 .modal-form__textarea {
   display: flex;
   flex-direction: column;
@@ -317,7 +304,6 @@ body {
 .modal-form__textarea:hover, .modal-form__textarea:focus-within {
   border: 1px solid #2196f3;
 }
-
 .modal-form__textarea::placeholder {
   font-weight: 400;
   font-size: 14px;
@@ -325,7 +311,6 @@ body {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form__agreement {
   display: flex;
   align-items: center;
@@ -335,7 +320,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 .modal-form__checkbox {
   position: absolute;
   width: 1px;
@@ -351,7 +335,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 .modal-form__checkmark {
   display: inline-block;
   width: 16px;
@@ -360,7 +343,6 @@ body {
   border: 2px solid #212121;
   border-radius: 2px;
 }
-
 .modal-form__checkbox:checked + .modal-form__checkmark {
   border-color: #2196f3;
   background-color: #2196f3;
@@ -368,11 +350,9 @@ body {
   background-size: contain;
   background-origin: border-box;
 }
-
 .modal-form__link {
   color: #2196f3;
 }
-
 .modal-form__btn {
   display: flex;
   margin-left: auto;
@@ -398,7 +378,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
 .modal-form__close {
   position: absolute;
   top: 0;
@@ -424,7 +403,6 @@ body {
 .advantages-section {
   padding-bottom: 0;
 }
-
 .advantages-section__title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -439,15 +417,12 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .advantages-list__item {
   width: 270px;
 }
-
 .advantages-list__item:not(:last-child) {
   margin-right: 30px;
 }
-
 .advantages-list__box {
   width: 100%;
   height: 120px;
@@ -457,7 +432,6 @@ body {
   align-items: center;
   background-color: #f5f4fa;
 }
-
 .advantages-list__title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -466,7 +440,6 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
-
 .advantages-list__text {
   margin-top: 0;
   margin-bottom: 0;
@@ -486,19 +459,15 @@ body {
 .services-list {
   display: flex;
 }
-
 .services-list__item:not(:last-child) {
   margin-right: 30px;
 }
-
 .services-list__item {
   position: relative;
 }
-
 .services-list__img {
   display: block;
 }
-
 .services-list__box {
   position: absolute;
   bottom: 0;
@@ -522,7 +491,6 @@ body {
 .team-section {
   background-color: #f5f4fa;
 }
-
 .team-section__title {
   text-align: center;
   margin-top: 0;
@@ -535,22 +503,18 @@ body {
 .team-list {
   display: flex;
 }
-
 .team-list__item {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-list__item:not(:last-child) {
   margin-right: 30px;
 }
-
 .team-list__description {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 .team-list__title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -560,7 +524,6 @@ body {
   text-align: center;
   color: #212121;
 }
-
 .team-list__text {
   margin-top: 0;
   margin-bottom: 16px;
@@ -614,11 +577,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .clients-list__item:not(:last-child) {
   margin-right: 30px;
 }
-
 .clients-list__link {
   display: flex;
   width: 170px;
@@ -653,7 +614,6 @@ body {
 .address-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
-
 .address-list__link {
   font-style: normal;
   text-decoration: none;
@@ -663,7 +623,6 @@ body {
 .address-list__link:hover, .address-list__link:focus {
   color: #2196f3;
 }
-
 .address-list__contacts {
   font-style: normal;
   text-decoration: none;
@@ -725,11 +684,9 @@ body {
 .mail-form {
   display: flex;
 }
-
 .mail-form__label {
   margin-right: 12px;
 }
-
 .mail-form__input {
   width: 358px;
   height: 50px;
@@ -746,14 +703,12 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-
 .mail-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .mail-form__btn {
   display: flex;
   justify-content: center;
@@ -771,7 +726,6 @@ body {
   background-color: #2196f3;
   cursor: pointer;
 }
-
 .mail-form__svg {
   margin-left: 10px;
 }
@@ -780,7 +734,6 @@ body {
 .projects-section {
   text-align: center;
 }
-
 .projects-section__title {
   text-align: center;
   margin-top: 0;
@@ -796,11 +749,9 @@ body {
   margin-top: 0;
   margin-bottom: 50px;
 }
-
 .filter-list__item:not(:last-child) {
   margin-right: 8px;
 }
-
 .filter-list__btn {
   padding: 6px 22px;
   cursor: pointer;
@@ -826,21 +777,17 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
 .projects-list__item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
 .projects-list__item:nth-child(3n) {
   margin-right: 0;
 }
-
 .projects-list__item:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
-
 .projects-list__link {
   display: inline-block;
   text-decoration: none;
@@ -849,16 +796,13 @@ body {
 .projects-list__link:hover, .projects-list__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .projects-list__box {
   position: relative;
   overflow: hidden;
 }
-
 .projects-list__img {
   display: block;
 }
-
 .projects-list__tip {
   position: absolute;
   width: 100%;
@@ -883,14 +827,12 @@ body {
 .projects-list__link:hover .projects-list__tip {
   transform: translateY(100%);
 }
-
 .projects-list__description {
   padding: 20px 24px 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-
 .projects-list__title {
   margin-top: 0;
   margin-bottom: 4px;
@@ -900,7 +842,6 @@ body {
   text-align: left;
   color: #212121;
 }
-
 .projects-list__text {
   margin-top: 0;
   margin-bottom: 0;
