@@ -10,20 +10,6 @@
 + accent акцент #2196F3
 + link-secondary вторичный белый rgba(255, 255, 255, 0.6)
 */
-/* ------------------------------- скрытие ------------------------------- */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* ------------------------------- Общая стилизация ------------------------------- */
 body {
   font-family: "Roboto", sans-serif;
@@ -51,6 +37,20 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+/* ------------------------------- скрытие ------------------------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* ------------------------------- Стилизация хедера ------------------------------- */
@@ -92,18 +92,18 @@ body {
 }
 
 /*---------------- Стилизация менюшки ----------------*/
-.site-nav__list {
+.nav-list {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 93px;
 }
 
-.site-nav__item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav__link {
+.nav-list__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -115,15 +115,15 @@ body {
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-nav__link:hover, .site-nav__link:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: #2196f3;
 }
 
-.site-nav__link--active {
+.nav-list__link--active {
   position: relative;
   color: #2196f3;
 }
-.site-nav__link--active::after {
+.nav-list__link--active::after {
   content: "";
   position: absolute;
   left: 0;

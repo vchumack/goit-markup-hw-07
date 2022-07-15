@@ -1,17 +1,17 @@
 /*---------------- Стилизация менюшки ----------------*/
 
-.site-nav__list {
+.nav-list {
    display: flex;
    margin-top: 0;
    margin-bottom: 0;
    margin-left: 93px;
 }
 
-.site-nav__item:not(:last-child) {
+.nav-list__item:not(:last-child) {
    margin-right: 50px;
 }
 
-.site-nav__link {
+.nav-list__link {
    display: block;
    padding-top: 32px;
    padding-bottom: 32px;
@@ -32,7 +32,7 @@
    }
 }
 
-.site-nav__link--active {
+.nav-list__link--active {
    position: relative;
    color: $accent-color;
 
